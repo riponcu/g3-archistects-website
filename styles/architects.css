@@ -5,10 +5,45 @@
 .work-sans-normal {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  
+  font-weight: 400px;
   font-style: normal;
 }
 
-.website{
-    background-color: blue;
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+    color: #434343;
+}
+
+/* dark03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+ justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+ text-decoration: none;
+ font-weight: 500px; 
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
 }
